@@ -5,7 +5,21 @@ object Apple{
         var c:Int=4
         var d:Int=5
         var k:Float=4.3f
-        println(--b*a+c*d--)
-        println(a++)
+        //println(--b*a+c*d--)
+        b=b-1
+        println(b*a+c*d)
+        d=d-1
+        //println(a++)
+        println(a)
+        a=a+1
+        //println(-2*(g-k)+c)
+        //println((-2)*(g-k)+c)
+        //println(c=c++)
+        c=c+1
+        println(c)
+        //println(c=++c*a++)
+        c=c+1
+        println(c*a)
+        a=a+1
     }
 }
